@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Dsw2026Ej5.Domain;
+﻿namespace Dsw2026Ej5.Domain;
 
 public abstract class Vehiculo
 {
@@ -61,6 +57,7 @@ public abstract class Vehiculo
     }
 
     public abstract double CalcularConsumo(double kilometros);
+   
 
     public bool EsDe(VehiculoTipo tipo)
     {
@@ -71,4 +68,5 @@ public abstract class Vehiculo
     {
         return $"{marca} {modelo}";
     }
+    
 }
